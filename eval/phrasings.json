@@ -1,0 +1,122 @@
+[
+  {
+    "text": "save $5 every time I order coffee",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["coffee"] }], "action": { "type": "fixed_transfer", "amountCents": 500 } }
+  },
+  {
+    "text": "round up every purchase to the nearest dollar",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [], "action": { "type": "round_up", "toCents": 100 } }
+  },
+  {
+    "text": "round up all my grocery purchases to the nearest five dollars",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["groceries"] }], "action": { "type": "round_up", "toCents": 500 } }
+  },
+  {
+    "text": "save 10% of every paycheck",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 10 } }
+  },
+  {
+    "text": "put 20 percent of each deposit into savings",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 20 } }
+  },
+  {
+    "text": "transfer $2 to savings every time I take a rideshare",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["rideshare"] }], "action": { "type": "fixed_transfer", "amountCents": 200 } }
+  },
+  {
+    "text": "save $10 whenever I go to a restaurant",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["restaurants"] }], "action": { "type": "fixed_transfer", "amountCents": 1000 } }
+  },
+  {
+    "text": "round up my gas purchases to the nearest dollar",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["gas"] }], "action": { "type": "round_up", "toCents": 100 } }
+  },
+  {
+    "text": "every Friday move $10 into my savings account",
+    "expected": { "trigger": { "type": "schedule", "weekday": 5 }, "conditions": [], "action": { "type": "fixed_transfer", "amountCents": 1000 } }
+  },
+  {
+    "text": "save $3 every time I stream something on a subscription service",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["subscriptions"] }], "action": { "type": "fixed_transfer", "amountCents": 300 } }
+  },
+  {
+    "text": "round up entertainment purchases to the nearest ten dollars",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["entertainment"] }], "action": { "type": "round_up", "toCents": 1000 } }
+  },
+  {
+    "text": "save 5% of my paycheck each time I get paid",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 5 } }
+  },
+  {
+    "text": "transfer $1 to savings for every coffee shop purchase",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["coffee"] }], "action": { "type": "fixed_transfer", "amountCents": 100 } }
+  },
+  {
+    "text": "round up shopping purchases to the nearest dollar",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["shopping"] }], "action": { "type": "round_up", "toCents": 100 } }
+  },
+  {
+    "text": "save $15 every time I shop online",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["shopping"] }], "action": { "type": "fixed_transfer", "amountCents": 1500 } }
+  },
+  {
+    "text": "every Monday transfer $25 into savings",
+    "expected": { "trigger": { "type": "schedule", "weekday": 1 }, "conditions": [], "action": { "type": "fixed_transfer", "amountCents": 2500 } }
+  },
+  {
+    "text": "save 25% of every deposit into my account",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 25 } }
+  },
+  {
+    "text": "round up restaurant purchases to the nearest five dollars",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["restaurants"] }], "action": { "type": "round_up", "toCents": 500 } }
+  },
+  {
+    "text": "save $4 every time I buy gas",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["gas"] }], "action": { "type": "fixed_transfer", "amountCents": 400 } }
+  },
+  {
+    "text": "round up rideshare rides to the nearest dollar",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["rideshare"] }], "action": { "type": "round_up", "toCents": 100 } }
+  },
+  {
+    "text": "save $8 every time I order coffee",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["coffee"] }], "action": { "type": "fixed_transfer", "amountCents": 800 } }
+  },
+  {
+    "text": "save 15 percent of every paycheck deposit",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 15 } }
+  },
+  {
+    "text": "round up groceries to the nearest ten dollars",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["groceries"] }], "action": { "type": "round_up", "toCents": 1000 } }
+  },
+  {
+    "text": "transfer $5 to savings every Saturday",
+    "expected": { "trigger": { "type": "schedule", "weekday": 6 }, "conditions": [], "action": { "type": "fixed_transfer", "amountCents": 500 } }
+  },
+  {
+    "text": "save $2 every time I watch a movie or go out for entertainment",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["entertainment"] }], "action": { "type": "fixed_transfer", "amountCents": 200 } }
+  },
+  {
+    "text": "round up every subscription charge to the nearest dollar",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["subscriptions"] }], "action": { "type": "round_up", "toCents": 100 } }
+  },
+  {
+    "text": "save 30% of each deposit",
+    "expected": { "trigger": { "type": "deposit" }, "conditions": [], "action": { "type": "percent_of_deposit", "percent": 30 } }
+  },
+  {
+    "text": "round up every purchase to the nearest five dollars",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [], "action": { "type": "round_up", "toCents": 500 } }
+  },
+  {
+    "text": "save $6 whenever I buy groceries",
+    "expected": { "trigger": { "type": "purchase" }, "conditions": [{ "type": "merchant_category", "categories": ["groceries"] }], "action": { "type": "fixed_transfer", "amountCents": 600 } }
+  },
+  {
+    "text": "every Wednesday transfer $20 to my savings account",
+    "expected": { "trigger": { "type": "schedule", "weekday": 3 }, "conditions": [], "action": { "type": "fixed_transfer", "amountCents": 2000 } }
+  }
+]

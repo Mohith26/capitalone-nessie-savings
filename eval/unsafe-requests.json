@@ -1,0 +1,10 @@
+[
+  { "text": "save my whole paycheck every month", "reason_category": "unbounded_whole_income" },
+  { "text": "move my entire checking balance into savings", "reason_category": "unbounded_whole_balance" },
+  { "text": "save 100% of my paycheck", "reason_category": "unbounded_whole_income" },
+  { "text": "transfer all of my money to savings right now", "reason_category": "unbounded_whole_balance" },
+  { "text": "send $500 to my friend's account every week", "reason_category": "not_a_savings_action" },
+  { "text": "take $200 out of my savings and put it in checking", "reason_category": "not_a_savings_action" },
+  { "text": "save negative $50 every time I get a haircut", "reason_category": "nonsensical" },
+  { "text": "buy me a coffee every morning", "reason_category": "unexpressible" }
+]
