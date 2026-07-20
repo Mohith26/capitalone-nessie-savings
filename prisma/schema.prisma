@@ -1,0 +1,56 @@
+// Prisma schema for RoundUps ledger + rules store.
+// Nessie itself (customers/accounts/purchases) is the source of truth for banking
+// state (see src/nessie-mock); this DB holds OUR application state: rules, the
+// append-only transfer ledger, and goals.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Rule {
+  id            String   @id @default(uuid())
+  customerId    String
+  accountId     String
+  savingsAccountId String
+  name          String
+  sourceText    String? // plain-English text if created via compiler, null if via form
+  dsl           Json
+  active        Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  transfers     Transfer[]
+  goals         Goal[]
+}
+
+// Append-only ledger. Rows are NEVER updated or deleted after insert -- enforced by
+// application code (see src/engine) and proven by the idempotency tests.
+model Transfer {
+  id                     String   @id @default(uuid())
+  idempotencyKey         String   @unique
+  ruleId                 String
+  rule                   Rule     @relation(fields: [ruleId], references: [id])
+  triggeringTransactionId String
+  customerId             String
+  fromAccountId          String
+  toAccountId            String
+  amountCents            Int
+  nessieTransferId        String?
+  createdAt              DateTime @default(now())
+
+  @@index([customerId])
+  @@index([ruleId])
+}
+
+model Goal {
+  id             String   @id @default(uuid())
+  ruleId         String?
+  rule           Rule?    @relation(fields: [ruleId], references: [id])
+  customerId     String
+  name           String
+  targetCents    Int
+  createdAt      DateTime @default(now())
+}
