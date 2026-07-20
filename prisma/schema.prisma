@@ -38,11 +38,15 @@ model Transfer {
   fromAccountId          String
   toAccountId            String
   amountCents            Int
+  transactionDate         String   // the triggering purchase's date (YYYY-MM-DD); used for
+                                    // daily-cap accounting so simulations over historical
+                                    // data enforce caps per simulated day, not per wall-clock day
   nessieTransferId        String?
   createdAt              DateTime @default(now())
 
   @@index([customerId])
   @@index([ruleId])
+  @@index([ruleId, transactionDate])
 }
 
 model Goal {
