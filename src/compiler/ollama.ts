@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ActionSchema, ConditionSchema, TriggerSchema } from "../dsl/schema.js";
+import { ActionSchema, ConditionSchema, TriggerSchema } from "../dsl/schema";
 
 const SYSTEM_PROMPT = `You translate a bank customer's plain-English savings request into a strict JSON rule.
 

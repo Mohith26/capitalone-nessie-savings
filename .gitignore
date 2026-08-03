@@ -12,3 +12,5 @@ coverage/
 .pgdata/
 *.pid
 pglocal.log
+*.tsbuildinfo
+next-env.d.ts

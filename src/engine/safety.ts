@@ -1,4 +1,4 @@
-import type { RuleDsl } from "../dsl/schema.js";
+import type { RuleDsl } from "../dsl/schema";
 
 export interface SafetyCheckInput {
   rule: RuleDsl;

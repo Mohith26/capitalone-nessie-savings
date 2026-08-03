@@ -1,4 +1,4 @@
-import type { Action, Condition, Trigger } from "../dsl/schema.js";
+import type { Action, Condition, Trigger } from "../dsl/schema";
 
 export interface ExpectedShape {
   trigger: Trigger;

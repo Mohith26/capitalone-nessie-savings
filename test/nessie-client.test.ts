@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { NessieApiError, NessieClient } from "../src/nessie-client/client.js";
+import { NessieApiError, NessieClient } from "../src/nessie-client/client";
 
 function jsonResponse(status: number, body: unknown): Response {
   return new Response(JSON.stringify(body), {

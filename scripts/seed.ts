@@ -2,10 +2,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { faker } from "@faker-js/faker";
-import { loadEnv } from "../src/env.js";
-import { NessieClient } from "../src/nessie-client/client.js";
-import { buildPersonaProfile, personaKindForIndex } from "../src/personas/personas.js";
-import { generatePurchaseHistory } from "../src/personas/history.js";
+import { loadEnv } from "../src/env";
+import { NessieClient } from "../src/nessie-client/client";
+import { buildPersonaProfile, personaKindForIndex } from "../src/personas/personas";
+import { generatePurchaseHistory } from "../src/personas/history";
 
 loadEnv();
 
@@ -62,6 +62,24 @@ async function seedOneCustomer(client: NessieClient, index: number): Promise<Dir
   if (purchases.length > 0) {
     await client.createPurchasesBulk(checking._id, purchases);
   }
+
+  // Monthly paycheck deposits so the live checking balance stays realistic (not
+  // just decremented by 6 months of purchases with no income ever arriving).
+  const months = 6;
+  const endDate = new Date();
+  const start = new Date(endDate);
+  start.setMonth(start.getMonth() - months);
+  const deposits = Array.from({ length: months }, (_, m) => {
+    const date = new Date(start);
+    date.setMonth(start.getMonth() + m);
+    date.setDate(1);
+    return {
+      transaction_date: date.toISOString().slice(0, 10),
+      amount: profile.monthlyIncomeCents,
+      description: "Payroll deposit",
+    };
+  });
+  await client.createDepositsBulk(checking._id, deposits);
 
   return {
     customerId: customer._id,

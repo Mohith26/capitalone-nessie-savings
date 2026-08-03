@@ -1,4 +1,10 @@
-import type { NessieAccount, NessieCustomer, NessiePurchase, NessieTransfer } from "../nessie-mock/types.js";
+import type {
+  NessieAccount,
+  NessieCustomer,
+  NessieDeposit,
+  NessiePurchase,
+  NessieTransfer,
+} from "../nessie-mock/types";
 
 export interface NessieClientOptions {
   baseUrl: string;
@@ -116,6 +122,17 @@ export class NessieClient {
     input: { payee_id: string; amount: number; idempotency_key: string },
   ): Promise<NessieTransfer> {
     return this.request("POST", `/accounts/${fromAccountId}/transfers`, input);
+  }
+
+  createDepositsBulk(
+    accountId: string,
+    deposits: Array<Omit<NessieDeposit, "_id" | "status" | "type" | "payee_id">>,
+  ): Promise<NessieDeposit[]> {
+    return this.request("POST", `/accounts/${accountId}/deposits/bulk`, { deposits });
+  }
+
+  listDeposits(accountId: string): Promise<NessieDeposit[]> {
+    return this.request("GET", `/accounts/${accountId}/deposits`);
   }
 }
 

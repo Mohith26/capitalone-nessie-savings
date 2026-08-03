@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-import { weightedCategory, type PersonaProfile } from "./personas.js";
+import { weightedCategory, type PersonaProfile } from "./personas";
 
 export interface GeneratedPurchase {
   merchant_id: string;

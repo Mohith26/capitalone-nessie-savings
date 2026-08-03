@@ -1,10 +1,10 @@
 /* eslint-disable no-console */
 import fs from "node:fs";
 import path from "node:path";
-import { loadEnv } from "../src/env.js";
-import { compilePlainEnglishRule } from "../src/compiler/compile.js";
-import { matchesExpectedShape, type ExpectedShape } from "../src/compiler/eval-compare.js";
-import type { ImpactHistoryContext } from "../src/compiler/impact.js";
+import { loadEnv } from "../src/env";
+import { compilePlainEnglishRule } from "../src/compiler/compile";
+import { matchesExpectedShape, type ExpectedShape } from "../src/compiler/eval-compare";
+import type { ImpactHistoryContext } from "../src/compiler/impact";
 
 loadEnv();
 

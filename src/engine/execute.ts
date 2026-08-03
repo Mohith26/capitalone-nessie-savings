@@ -1,9 +1,9 @@
 import type { PrismaClient } from "@prisma/client";
-import type { RuleDsl } from "../dsl/schema.js";
-import type { NessieClient } from "../nessie-client/client.js";
-import { idempotencyKeyFor } from "./idempotency.js";
-import { computeRawTransferAmount, ruleMatchesPurchase, type PurchaseEvent } from "./matching.js";
-import { checkSafetyRails } from "./safety.js";
+import type { RuleDsl } from "../dsl/schema";
+import type { NessieClient } from "../nessie-client/client";
+import { idempotencyKeyFor } from "./idempotency";
+import { computeRawTransferAmount, ruleMatchesPurchase, type PurchaseEvent } from "./matching";
+import { checkSafetyRails } from "./safety";
 
 export interface ActiveRule {
   id: string;

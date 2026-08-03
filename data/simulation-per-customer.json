@@ -1,0 +1,4502 @@
+[
+  {
+    "customerId": "cust_1",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11546,
+    "monthlyAvgSavedCents": 1924.3333333333333,
+    "transfersExecuted": 233,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_2",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4200,
+    "monthlyAvgSavedCents": 700,
+    "transfersExecuted": 14,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_3",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 402252,
+    "monthlyAvgSavedCents": 67042,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_5",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 124159,
+    "monthlyAvgSavedCents": 20693.166666666668,
+    "transfersExecuted": 219,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_4",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7371,
+    "monthlyAvgSavedCents": 1228.5,
+    "transfersExecuted": 164,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_7",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10800,
+    "monthlyAvgSavedCents": 1800,
+    "transfersExecuted": 36,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_6",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 384522,
+    "monthlyAvgSavedCents": 64087,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_8",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 183104,
+    "monthlyAvgSavedCents": 30517.333333333332,
+    "transfersExecuted": 305,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_a",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8845,
+    "monthlyAvgSavedCents": 1474.1666666666667,
+    "transfersExecuted": 177,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_9",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 2400,
+    "monthlyAvgSavedCents": 400,
+    "transfersExecuted": 8,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_c",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 152064,
+    "monthlyAvgSavedCents": 25344,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_b",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 140191,
+    "monthlyAvgSavedCents": 23365.166666666668,
+    "transfersExecuted": 179,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_d",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16983,
+    "monthlyAvgSavedCents": 2830.5,
+    "transfersExecuted": 339,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_f",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4200,
+    "monthlyAvgSavedCents": 700,
+    "transfersExecuted": 14,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_e",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 587250,
+    "monthlyAvgSavedCents": 97875,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_h",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 75527,
+    "monthlyAvgSavedCents": 12587.833333333334,
+    "transfersExecuted": 231,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_g",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9545,
+    "monthlyAvgSavedCents": 1590.8333333333333,
+    "transfersExecuted": 190,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_j",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11400,
+    "monthlyAvgSavedCents": 1900,
+    "transfersExecuted": 38,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_i",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 215826,
+    "monthlyAvgSavedCents": 35971,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_k",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 429364,
+    "monthlyAvgSavedCents": 71560.66666666667,
+    "transfersExecuted": 132,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_m",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10855,
+    "monthlyAvgSavedCents": 1809.1666666666667,
+    "transfersExecuted": 203,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_l",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10800,
+    "monthlyAvgSavedCents": 1800,
+    "transfersExecuted": 36,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_n",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 448200,
+    "monthlyAvgSavedCents": 74700,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_o",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 77127,
+    "monthlyAvgSavedCents": 12854.5,
+    "transfersExecuted": 154,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_p",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7091,
+    "monthlyAvgSavedCents": 1181.8333333333333,
+    "transfersExecuted": 148,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_40g",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12600,
+    "monthlyAvgSavedCents": 2100,
+    "transfersExecuted": 42,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40h",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 259032,
+    "monthlyAvgSavedCents": 43172,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40i",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 225780,
+    "monthlyAvgSavedCents": 37630,
+    "transfersExecuted": 256,
+    "transfersBlocked": 8
+  },
+  {
+    "customerId": "cust_40j",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11691,
+    "monthlyAvgSavedCents": 1948.5,
+    "transfersExecuted": 220,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_40k",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6300,
+    "monthlyAvgSavedCents": 1050,
+    "transfersExecuted": 21,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40l",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 156210,
+    "monthlyAvgSavedCents": 26035,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40m",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 136210,
+    "monthlyAvgSavedCents": 22701.666666666668,
+    "transfersExecuted": 143,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_40n",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16475,
+    "monthlyAvgSavedCents": 2745.8333333333335,
+    "transfersExecuted": 340,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_40o",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3600,
+    "monthlyAvgSavedCents": 600,
+    "transfersExecuted": 12,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40p",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 726810,
+    "monthlyAvgSavedCents": 121135,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40q",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 73847,
+    "monthlyAvgSavedCents": 12307.833333333334,
+    "transfersExecuted": 195,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_40r",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7150,
+    "monthlyAvgSavedCents": 1191.6666666666667,
+    "transfersExecuted": 138,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_40s",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13800,
+    "monthlyAvgSavedCents": 2300,
+    "transfersExecuted": 46,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40t",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 314082,
+    "monthlyAvgSavedCents": 52347,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_40u",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 311466,
+    "monthlyAvgSavedCents": 51911,
+    "transfersExecuted": 142,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_417",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12452,
+    "monthlyAvgSavedCents": 2075.3333333333335,
+    "transfersExecuted": 239,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_418",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5400,
+    "monthlyAvgSavedCents": 900,
+    "transfersExecuted": 18,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_419",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 513720,
+    "monthlyAvgSavedCents": 85620,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_41a",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 132065,
+    "monthlyAvgSavedCents": 22010.833333333332,
+    "transfersExecuted": 234,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_41b",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7502,
+    "monthlyAvgSavedCents": 1250.3333333333333,
+    "transfersExecuted": 144,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_41c",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12900,
+    "monthlyAvgSavedCents": 2150,
+    "transfersExecuted": 43,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_41d",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 350430,
+    "monthlyAvgSavedCents": 58405,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_41e",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 187532,
+    "monthlyAvgSavedCents": 31255.333333333332,
+    "transfersExecuted": 358,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_41u",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9627,
+    "monthlyAvgSavedCents": 1604.5,
+    "transfersExecuted": 205,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_41v",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3300,
+    "monthlyAvgSavedCents": 550,
+    "transfersExecuted": 11,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83j",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 131700,
+    "monthlyAvgSavedCents": 21950,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83k",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 160523,
+    "monthlyAvgSavedCents": 26753.833333333332,
+    "transfersExecuted": 155,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_83l",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14654,
+    "monthlyAvgSavedCents": 2442.3333333333335,
+    "transfersExecuted": 287,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_83m",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3900,
+    "monthlyAvgSavedCents": 650,
+    "transfersExecuted": 13,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83n",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 906960,
+    "monthlyAvgSavedCents": 151160,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83o",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 76104,
+    "monthlyAvgSavedCents": 12684,
+    "transfersExecuted": 249,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_83p",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7032,
+    "monthlyAvgSavedCents": 1172,
+    "transfersExecuted": 142,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_83q",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9900,
+    "monthlyAvgSavedCents": 1650,
+    "transfersExecuted": 33,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83r",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 303600,
+    "monthlyAvgSavedCents": 50600,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83s",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 391662,
+    "monthlyAvgSavedCents": 65277,
+    "transfersExecuted": 113,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_83t",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11117,
+    "monthlyAvgSavedCents": 1852.8333333333333,
+    "transfersExecuted": 220,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_83u",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 7800,
+    "monthlyAvgSavedCents": 1300,
+    "transfersExecuted": 26,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83v",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 493020,
+    "monthlyAvgSavedCents": 82170,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_83w",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 153528,
+    "monthlyAvgSavedCents": 25588,
+    "transfersExecuted": 132,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_83x",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8017,
+    "monthlyAvgSavedCents": 1336.1666666666667,
+    "transfersExecuted": 171,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_84a",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10800,
+    "monthlyAvgSavedCents": 1800,
+    "transfersExecuted": 36,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_84b",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 340422,
+    "monthlyAvgSavedCents": 56737,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_84c",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 274744,
+    "monthlyAvgSavedCents": 45790.666666666664,
+    "transfersExecuted": 314,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_84d",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6973,
+    "monthlyAvgSavedCents": 1162.1666666666667,
+    "transfersExecuted": 142,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_84e",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5400,
+    "monthlyAvgSavedCents": 900,
+    "transfersExecuted": 18,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_84f",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 186012,
+    "monthlyAvgSavedCents": 31002,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_84g",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 194817,
+    "monthlyAvgSavedCents": 32469.5,
+    "transfersExecuted": 170,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_84h",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14697,
+    "monthlyAvgSavedCents": 2449.5,
+    "transfersExecuted": 293,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_84x",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_84y",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 750462,
+    "monthlyAvgSavedCents": 125077,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_byy",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 77440,
+    "monthlyAvgSavedCents": 12906.666666666666,
+    "transfersExecuted": 196,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_byz",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9486,
+    "monthlyAvgSavedCents": 1581,
+    "transfersExecuted": 180,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz0",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 17400,
+    "monthlyAvgSavedCents": 2900,
+    "transfersExecuted": 58,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz1",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 228294,
+    "monthlyAvgSavedCents": 38049,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz2",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 283316,
+    "monthlyAvgSavedCents": 47219.333333333336,
+    "transfersExecuted": 161,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_bz3",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8840,
+    "monthlyAvgSavedCents": 1473.3333333333333,
+    "transfersExecuted": 173,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_bz4",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8700,
+    "monthlyAvgSavedCents": 1450,
+    "transfersExecuted": 29,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz5",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 487362,
+    "monthlyAvgSavedCents": 81227,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz6",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 153245,
+    "monthlyAvgSavedCents": 25540.833333333332,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz7",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6936,
+    "monthlyAvgSavedCents": 1156,
+    "transfersExecuted": 147,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_bz8",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 16200,
+    "monthlyAvgSavedCents": 2700,
+    "transfersExecuted": 54,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bz9",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 245262,
+    "monthlyAvgSavedCents": 40877,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bza",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 255580,
+    "monthlyAvgSavedCents": 42596.666666666664,
+    "transfersExecuted": 343,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_bzb",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9946,
+    "monthlyAvgSavedCents": 1657.6666666666667,
+    "transfersExecuted": 201,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_bzc",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6300,
+    "monthlyAvgSavedCents": 1050,
+    "transfersExecuted": 21,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bzp",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 137712,
+    "monthlyAvgSavedCents": 22952,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bzq",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 181540,
+    "monthlyAvgSavedCents": 30256.666666666668,
+    "transfersExecuted": 184,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_bzr",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14665,
+    "monthlyAvgSavedCents": 2444.1666666666665,
+    "transfersExecuted": 296,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_bzs",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8100,
+    "monthlyAvgSavedCents": 1350,
+    "transfersExecuted": 27,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bzt",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 698190,
+    "monthlyAvgSavedCents": 116365,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bzu",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 105078,
+    "monthlyAvgSavedCents": 17513,
+    "transfersExecuted": 235,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_bzv",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7512,
+    "monthlyAvgSavedCents": 1252,
+    "transfersExecuted": 150,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_bzw",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 15000,
+    "monthlyAvgSavedCents": 2500,
+    "transfersExecuted": 50,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_c0c",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 324258,
+    "monthlyAvgSavedCents": 54043,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_c0d",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 350561,
+    "monthlyAvgSavedCents": 58426.833333333336,
+    "transfersExecuted": 147,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_fzd",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12783,
+    "monthlyAvgSavedCents": 2130.5,
+    "transfersExecuted": 249,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_fze",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6600,
+    "monthlyAvgSavedCents": 1100,
+    "transfersExecuted": 22,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzf",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 417972,
+    "monthlyAvgSavedCents": 69662,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzg",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 170318,
+    "monthlyAvgSavedCents": 28386.333333333332,
+    "transfersExecuted": 195,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_fzh",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6034,
+    "monthlyAvgSavedCents": 1005.6666666666666,
+    "transfersExecuted": 107,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_fzi",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10500,
+    "monthlyAvgSavedCents": 1750,
+    "transfersExecuted": 35,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzj",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 290484,
+    "monthlyAvgSavedCents": 48414,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzk",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 248921,
+    "monthlyAvgSavedCents": 41486.833333333336,
+    "transfersExecuted": 285,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_fzl",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6598,
+    "monthlyAvgSavedCents": 1099.6666666666667,
+    "transfersExecuted": 131,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_fzm",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5700,
+    "monthlyAvgSavedCents": 950,
+    "transfersExecuted": 19,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzn",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 163536,
+    "monthlyAvgSavedCents": 27256,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzo",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 180577,
+    "monthlyAvgSavedCents": 30096.166666666668,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzp",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 15298,
+    "monthlyAvgSavedCents": 2549.6666666666665,
+    "transfersExecuted": 299,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_fzq",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_fzr",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 640392,
+    "monthlyAvgSavedCents": 106732,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g0d",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 85265,
+    "monthlyAvgSavedCents": 14210.833333333334,
+    "transfersExecuted": 227,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_g0p",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8073,
+    "monthlyAvgSavedCents": 1345.5,
+    "transfersExecuted": 154,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_g04",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 15900,
+    "monthlyAvgSavedCents": 2650,
+    "transfersExecuted": 53,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g05",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 246246,
+    "monthlyAvgSavedCents": 41041,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g06",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 478936,
+    "monthlyAvgSavedCents": 79822.66666666667,
+    "transfersExecuted": 124,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_g07",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10288,
+    "monthlyAvgSavedCents": 1714.6666666666667,
+    "transfersExecuted": 208,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_g08",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9300,
+    "monthlyAvgSavedCents": 1550,
+    "transfersExecuted": 31,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g09",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 534516,
+    "monthlyAvgSavedCents": 89086,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g0r",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 152325,
+    "monthlyAvgSavedCents": 25387.5,
+    "transfersExecuted": 180,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_g0s",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6335,
+    "monthlyAvgSavedCents": 1055.8333333333333,
+    "transfersExecuted": 126,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwm",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9600,
+    "monthlyAvgSavedCents": 1600,
+    "transfersExecuted": 32,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwn",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 311160,
+    "monthlyAvgSavedCents": 51860,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwo",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 210028,
+    "monthlyAvgSavedCents": 35004.666666666664,
+    "transfersExecuted": 324,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_jwv",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7096,
+    "monthlyAvgSavedCents": 1182.6666666666667,
+    "transfersExecuted": 148,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_jww",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4500,
+    "monthlyAvgSavedCents": 750,
+    "transfersExecuted": 15,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwx",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 142266,
+    "monthlyAvgSavedCents": 23711,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwy",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 190863,
+    "monthlyAvgSavedCents": 31810.5,
+    "transfersExecuted": 126,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jwz",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 13140,
+    "monthlyAvgSavedCents": 2190,
+    "transfersExecuted": 259,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_jx0",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4200,
+    "monthlyAvgSavedCents": 700,
+    "transfersExecuted": 14,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jx1",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 543468,
+    "monthlyAvgSavedCents": 90578,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jx2",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 90251,
+    "monthlyAvgSavedCents": 15041.833333333334,
+    "transfersExecuted": 257,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_jx3",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8154,
+    "monthlyAvgSavedCents": 1359,
+    "transfersExecuted": 147,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_jx4",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12300,
+    "monthlyAvgSavedCents": 2050,
+    "transfersExecuted": 41,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jx5",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 197592,
+    "monthlyAvgSavedCents": 32932,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jxc",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 429736,
+    "monthlyAvgSavedCents": 71622.66666666667,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_jxp",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9306,
+    "monthlyAvgSavedCents": 1551,
+    "transfersExecuted": 179,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_jxq",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8400,
+    "monthlyAvgSavedCents": 1400,
+    "transfersExecuted": 28,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jxr",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 478662,
+    "monthlyAvgSavedCents": 79777,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jxs",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 139471,
+    "monthlyAvgSavedCents": 23245.166666666668,
+    "transfersExecuted": 155,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_jxt",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8062,
+    "monthlyAvgSavedCents": 1343.6666666666667,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_jxu",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9000,
+    "monthlyAvgSavedCents": 1500,
+    "transfersExecuted": 30,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jxy",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 335364,
+    "monthlyAvgSavedCents": 55894,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_jya",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 190679,
+    "monthlyAvgSavedCents": 31779.833333333332,
+    "transfersExecuted": 273,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_jyc",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11174,
+    "monthlyAvgSavedCents": 1862.3333333333333,
+    "transfersExecuted": 208,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_jyd",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3000,
+    "monthlyAvgSavedCents": 500,
+    "transfersExecuted": 10,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nwv",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 175260,
+    "monthlyAvgSavedCents": 29210,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nww",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 191754,
+    "monthlyAvgSavedCents": 31959,
+    "transfersExecuted": 131,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_nwx",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16340,
+    "monthlyAvgSavedCents": 2723.3333333333335,
+    "transfersExecuted": 328,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_nx4",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4200,
+    "monthlyAvgSavedCents": 700,
+    "transfersExecuted": 14,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nx5",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 729534,
+    "monthlyAvgSavedCents": 121589,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nx6",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 83942,
+    "monthlyAvgSavedCents": 13990.333333333334,
+    "transfersExecuted": 212,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_nx7",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10174,
+    "monthlyAvgSavedCents": 1695.6666666666667,
+    "transfersExecuted": 191,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_nx8",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 21900,
+    "monthlyAvgSavedCents": 3650,
+    "transfersExecuted": 73,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nx9",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 196542,
+    "monthlyAvgSavedCents": 32757,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nxa",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 278813,
+    "monthlyAvgSavedCents": 46468.833333333336,
+    "transfersExecuted": 174,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nxb",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12843,
+    "monthlyAvgSavedCents": 2140.5,
+    "transfersExecuted": 251,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_nxc",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10200,
+    "monthlyAvgSavedCents": 1700,
+    "transfersExecuted": 34,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nxd",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 447948,
+    "monthlyAvgSavedCents": 74658,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nxe",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 146450,
+    "monthlyAvgSavedCents": 24408.333333333332,
+    "transfersExecuted": 219,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_nxl",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5938,
+    "monthlyAvgSavedCents": 989.6666666666666,
+    "transfersExecuted": 112,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_nxy",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12000,
+    "monthlyAvgSavedCents": 2000,
+    "transfersExecuted": 40,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nxz",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 362766,
+    "monthlyAvgSavedCents": 60461,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_ny0",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 268112,
+    "monthlyAvgSavedCents": 44685.333333333336,
+    "transfersExecuted": 316,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_ny1",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6911,
+    "monthlyAvgSavedCents": 1151.8333333333333,
+    "transfersExecuted": 136,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_ny2",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_ny3",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 136854,
+    "monthlyAvgSavedCents": 22809,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_ny7",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 154148,
+    "monthlyAvgSavedCents": 25691.333333333332,
+    "transfersExecuted": 132,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nyj",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12848,
+    "monthlyAvgSavedCents": 2141.3333333333335,
+    "transfersExecuted": 256,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_nyl",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6000,
+    "monthlyAvgSavedCents": 1000,
+    "transfersExecuted": 20,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_nym",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 734898,
+    "monthlyAvgSavedCents": 122483,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rus",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 88745,
+    "monthlyAvgSavedCents": 14790.833333333334,
+    "transfersExecuted": 240,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_rut",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7923,
+    "monthlyAvgSavedCents": 1320.5,
+    "transfersExecuted": 171,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_ruu",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 16200,
+    "monthlyAvgSavedCents": 2700,
+    "transfersExecuted": 54,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv1",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 216354,
+    "monthlyAvgSavedCents": 36059,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv2",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 312502,
+    "monthlyAvgSavedCents": 52083.666666666664,
+    "transfersExecuted": 186,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv3",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9380,
+    "monthlyAvgSavedCents": 1563.3333333333333,
+    "transfersExecuted": 190,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_rv4",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3000,
+    "monthlyAvgSavedCents": 500,
+    "transfersExecuted": 10,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv5",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 348996,
+    "monthlyAvgSavedCents": 58166,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv6",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 65279,
+    "monthlyAvgSavedCents": 10879.833333333334,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_rv7",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7743,
+    "monthlyAvgSavedCents": 1290.5,
+    "transfersExecuted": 155,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_rv8",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 14700,
+    "monthlyAvgSavedCents": 2450,
+    "transfersExecuted": 49,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rv9",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 264858,
+    "monthlyAvgSavedCents": 44143,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rva",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 188577,
+    "monthlyAvgSavedCents": 31429.5,
+    "transfersExecuted": 298,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_rvb",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7245,
+    "monthlyAvgSavedCents": 1207.5,
+    "transfersExecuted": 144,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rvi",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3000,
+    "monthlyAvgSavedCents": 500,
+    "transfersExecuted": 10,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rvv",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 170940,
+    "monthlyAvgSavedCents": 28490,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rvw",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 175372,
+    "monthlyAvgSavedCents": 29228.666666666668,
+    "transfersExecuted": 184,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_rvx",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14659,
+    "monthlyAvgSavedCents": 2443.1666666666665,
+    "transfersExecuted": 294,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_rvy",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5700,
+    "monthlyAvgSavedCents": 950,
+    "transfersExecuted": 19,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rvz",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 785214,
+    "monthlyAvgSavedCents": 130869,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rw0",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 93794,
+    "monthlyAvgSavedCents": 15632.333333333334,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_rw4",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7052,
+    "monthlyAvgSavedCents": 1175.3333333333333,
+    "transfersExecuted": 141,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_rwg",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11700,
+    "monthlyAvgSavedCents": 1950,
+    "transfersExecuted": 39,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rwi",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 235770,
+    "monthlyAvgSavedCents": 39295,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_rwj",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 341666,
+    "monthlyAvgSavedCents": 56944.333333333336,
+    "transfersExecuted": 136,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_vwp",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 13187,
+    "monthlyAvgSavedCents": 2197.8333333333335,
+    "transfersExecuted": 249,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_vwq",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8100,
+    "monthlyAvgSavedCents": 1350,
+    "transfersExecuted": 27,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vwr",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 358542,
+    "monthlyAvgSavedCents": 59757,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vwy",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 101356,
+    "monthlyAvgSavedCents": 16892.666666666668,
+    "transfersExecuted": 207,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_vwz",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7845,
+    "monthlyAvgSavedCents": 1307.5,
+    "transfersExecuted": 166,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_vx0",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8100,
+    "monthlyAvgSavedCents": 1350,
+    "transfersExecuted": 27,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vx1",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 380328,
+    "monthlyAvgSavedCents": 63388,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vx2",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 199966,
+    "monthlyAvgSavedCents": 33327.666666666664,
+    "transfersExecuted": 327,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_vx3",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9109,
+    "monthlyAvgSavedCents": 1518.1666666666667,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_vx4",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 2400,
+    "monthlyAvgSavedCents": 400,
+    "transfersExecuted": 8,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vx5",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 168762,
+    "monthlyAvgSavedCents": 28127,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vx6",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 134459,
+    "monthlyAvgSavedCents": 22409.833333333332,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_vx7",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 15046,
+    "monthlyAvgSavedCents": 2507.6666666666665,
+    "transfersExecuted": 306,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_vx8",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vxf",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 853518,
+    "monthlyAvgSavedCents": 142253,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vxs",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 83354,
+    "monthlyAvgSavedCents": 13892.333333333334,
+    "transfersExecuted": 235,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_vxt",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7902,
+    "monthlyAvgSavedCents": 1317,
+    "transfersExecuted": 168,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vxu",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 16500,
+    "monthlyAvgSavedCents": 2750,
+    "transfersExecuted": 55,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vxv",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 191958,
+    "monthlyAvgSavedCents": 31993,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vxw",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 324661,
+    "monthlyAvgSavedCents": 54110.166666666664,
+    "transfersExecuted": 131,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_vxx",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12268,
+    "monthlyAvgSavedCents": 2044.6666666666667,
+    "transfersExecuted": 251,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_vy1",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8700,
+    "monthlyAvgSavedCents": 1450,
+    "transfersExecuted": 29,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vyd",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 409596,
+    "monthlyAvgSavedCents": 68266,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_vyf",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 91658,
+    "monthlyAvgSavedCents": 15276.333333333334,
+    "transfersExecuted": 219,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_vyg",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5224,
+    "monthlyAvgSavedCents": 870.6666666666666,
+    "transfersExecuted": 105,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_104a",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12300,
+    "monthlyAvgSavedCents": 2050,
+    "transfersExecuted": 41,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104b",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 354108,
+    "monthlyAvgSavedCents": 59018,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104c",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 234256,
+    "monthlyAvgSavedCents": 39042.666666666664,
+    "transfersExecuted": 256,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_104j",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6136,
+    "monthlyAvgSavedCents": 1022.6666666666666,
+    "transfersExecuted": 129,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_104k",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104l",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 173778,
+    "monthlyAvgSavedCents": 28963,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104m",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 174229,
+    "monthlyAvgSavedCents": 29038.166666666668,
+    "transfersExecuted": 122,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_104n",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 13843,
+    "monthlyAvgSavedCents": 2307.1666666666665,
+    "transfersExecuted": 268,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_104o",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4800,
+    "monthlyAvgSavedCents": 800,
+    "transfersExecuted": 16,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104p",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 705912,
+    "monthlyAvgSavedCents": 117652,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104q",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 100857,
+    "monthlyAvgSavedCents": 16809.5,
+    "transfersExecuted": 212,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_104r",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7572,
+    "monthlyAvgSavedCents": 1262,
+    "transfersExecuted": 161,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_104s",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13800,
+    "monthlyAvgSavedCents": 2300,
+    "transfersExecuted": 46,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_104t",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 290244,
+    "monthlyAvgSavedCents": 48374,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1050",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 295179,
+    "monthlyAvgSavedCents": 49196.5,
+    "transfersExecuted": 183,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_105d",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11463,
+    "monthlyAvgSavedCents": 1910.5,
+    "transfersExecuted": 227,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_105e",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8700,
+    "monthlyAvgSavedCents": 1450,
+    "transfersExecuted": 29,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_105f",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 430806,
+    "monthlyAvgSavedCents": 71801,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_105g",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 125641,
+    "monthlyAvgSavedCents": 20940.166666666668,
+    "transfersExecuted": 167,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_105h",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5769,
+    "monthlyAvgSavedCents": 961.5,
+    "transfersExecuted": 118,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_105i",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13500,
+    "monthlyAvgSavedCents": 2250,
+    "transfersExecuted": 45,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_105m",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 352140,
+    "monthlyAvgSavedCents": 58690,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_105y",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 251400,
+    "monthlyAvgSavedCents": 41900,
+    "transfersExecuted": 339,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1060",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11123,
+    "monthlyAvgSavedCents": 1853.8333333333333,
+    "transfersExecuted": 209,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1061",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 2100,
+    "monthlyAvgSavedCents": 350,
+    "transfersExecuted": 7,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140j",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 136434,
+    "monthlyAvgSavedCents": 22739,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140k",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 179357,
+    "monthlyAvgSavedCents": 29892.833333333332,
+    "transfersExecuted": 142,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_140l",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14496,
+    "monthlyAvgSavedCents": 2416,
+    "transfersExecuted": 280,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_140s",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4200,
+    "monthlyAvgSavedCents": 700,
+    "transfersExecuted": 14,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140t",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 860292,
+    "monthlyAvgSavedCents": 143382,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140u",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 96600,
+    "monthlyAvgSavedCents": 16100,
+    "transfersExecuted": 197,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_140v",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6507,
+    "monthlyAvgSavedCents": 1084.5,
+    "transfersExecuted": 136,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_140w",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12300,
+    "monthlyAvgSavedCents": 2050,
+    "transfersExecuted": 41,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140x",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 131328,
+    "monthlyAvgSavedCents": 21888,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140y",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 289727,
+    "monthlyAvgSavedCents": 48287.833333333336,
+    "transfersExecuted": 156,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_140z",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10437,
+    "monthlyAvgSavedCents": 1739.5,
+    "transfersExecuted": 203,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1410",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6900,
+    "monthlyAvgSavedCents": 1150,
+    "transfersExecuted": 23,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1411",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 377172,
+    "monthlyAvgSavedCents": 62862,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1412",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 151721,
+    "monthlyAvgSavedCents": 25286.833333333332,
+    "transfersExecuted": 214,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1419",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7845,
+    "monthlyAvgSavedCents": 1307.5,
+    "transfersExecuted": 153,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_141m",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13800,
+    "monthlyAvgSavedCents": 2300,
+    "transfersExecuted": 46,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_141n",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 316140,
+    "monthlyAvgSavedCents": 52690,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_141o",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 210809,
+    "monthlyAvgSavedCents": 35134.833333333336,
+    "transfersExecuted": 312,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_141p",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11166,
+    "monthlyAvgSavedCents": 1861,
+    "transfersExecuted": 218,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_141q",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3300,
+    "monthlyAvgSavedCents": 550,
+    "transfersExecuted": 11,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_141r",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 155052,
+    "monthlyAvgSavedCents": 25842,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_141v",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 170365,
+    "monthlyAvgSavedCents": 28394.166666666668,
+    "transfersExecuted": 191,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1427",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 15106,
+    "monthlyAvgSavedCents": 2517.6666666666665,
+    "transfersExecuted": 293,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1429",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10200,
+    "monthlyAvgSavedCents": 1700,
+    "transfersExecuted": 34,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_142a",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 788772,
+    "monthlyAvgSavedCents": 131462,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17yy",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 85109,
+    "monthlyAvgSavedCents": 14184.833333333334,
+    "transfersExecuted": 191,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_17yz",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6833,
+    "monthlyAvgSavedCents": 1138.8333333333333,
+    "transfersExecuted": 137,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_17z0",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10500,
+    "monthlyAvgSavedCents": 1750,
+    "transfersExecuted": 35,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17z7",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 226782,
+    "monthlyAvgSavedCents": 37797,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17z8",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 300012,
+    "monthlyAvgSavedCents": 50002,
+    "transfersExecuted": 138,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17z9",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10063,
+    "monthlyAvgSavedCents": 1677.1666666666667,
+    "transfersExecuted": 204,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17za",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8700,
+    "monthlyAvgSavedCents": 1450,
+    "transfersExecuted": 29,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zb",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 494550,
+    "monthlyAvgSavedCents": 82425,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zc",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 169246,
+    "monthlyAvgSavedCents": 28207.666666666668,
+    "transfersExecuted": 135,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_17zd",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9230,
+    "monthlyAvgSavedCents": 1538.3333333333333,
+    "transfersExecuted": 179,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_17ze",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12000,
+    "monthlyAvgSavedCents": 2000,
+    "transfersExecuted": 40,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zf",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 338928,
+    "monthlyAvgSavedCents": 56488,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zg",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 202159,
+    "monthlyAvgSavedCents": 33693.166666666664,
+    "transfersExecuted": 334,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_17zh",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10947,
+    "monthlyAvgSavedCents": 1824.5,
+    "transfersExecuted": 227,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_17zi",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3900,
+    "monthlyAvgSavedCents": 650,
+    "transfersExecuted": 13,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zj",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 163674,
+    "monthlyAvgSavedCents": 27279,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_17zq",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 171178,
+    "monthlyAvgSavedCents": 28529.666666666668,
+    "transfersExecuted": 138,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1803",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16750,
+    "monthlyAvgSavedCents": 2791.6666666666665,
+    "transfersExecuted": 324,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1804",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 7800,
+    "monthlyAvgSavedCents": 1300,
+    "transfersExecuted": 26,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1805",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 938232,
+    "monthlyAvgSavedCents": 156372,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1806",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 83826,
+    "monthlyAvgSavedCents": 13971,
+    "transfersExecuted": 250,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_180a",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7373,
+    "monthlyAvgSavedCents": 1228.8333333333333,
+    "transfersExecuted": 150,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_180o",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11700,
+    "monthlyAvgSavedCents": 1950,
+    "transfersExecuted": 39,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_180q",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 246666,
+    "monthlyAvgSavedCents": 41111,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_180r",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 443216,
+    "monthlyAvgSavedCents": 73869.33333333333,
+    "transfersExecuted": 123,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1c1p",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10813,
+    "monthlyAvgSavedCents": 1802.1666666666667,
+    "transfersExecuted": 234,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c1q",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9000,
+    "monthlyAvgSavedCents": 1500,
+    "transfersExecuted": 30,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c1r",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 511458,
+    "monthlyAvgSavedCents": 85243,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c1y",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 147349,
+    "monthlyAvgSavedCents": 24558.166666666668,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c1z",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5606,
+    "monthlyAvgSavedCents": 934.3333333333334,
+    "transfersExecuted": 126,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c20",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12600,
+    "monthlyAvgSavedCents": 2100,
+    "transfersExecuted": 42,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c21",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 300612,
+    "monthlyAvgSavedCents": 50102,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c22",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 228200,
+    "monthlyAvgSavedCents": 38033.333333333336,
+    "transfersExecuted": 326,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1c23",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8609,
+    "monthlyAvgSavedCents": 1434.8333333333333,
+    "transfersExecuted": 171,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1c24",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c25",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 163368,
+    "monthlyAvgSavedCents": 27228,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c26",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 197697,
+    "monthlyAvgSavedCents": 32949.5,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1c27",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14434,
+    "monthlyAvgSavedCents": 2405.6666666666665,
+    "transfersExecuted": 309,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1c28",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4800,
+    "monthlyAvgSavedCents": 800,
+    "transfersExecuted": 16,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c29",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 749142,
+    "monthlyAvgSavedCents": 124857,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c2a",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 88323,
+    "monthlyAvgSavedCents": 14720.5,
+    "transfersExecuted": 207,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1c2h",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9468,
+    "monthlyAvgSavedCents": 1578,
+    "transfersExecuted": 190,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1c2u",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13500,
+    "monthlyAvgSavedCents": 2250,
+    "transfersExecuted": 45,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c2v",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 127176,
+    "monthlyAvgSavedCents": 21196,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c2w",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 466654,
+    "monthlyAvgSavedCents": 77775.66666666667,
+    "transfersExecuted": 168,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c2x",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9148,
+    "monthlyAvgSavedCents": 1524.6666666666667,
+    "transfersExecuted": 194,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1c31",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6300,
+    "monthlyAvgSavedCents": 1050,
+    "transfersExecuted": 21,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c3e",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 496284,
+    "monthlyAvgSavedCents": 82714,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c3g",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 116171,
+    "monthlyAvgSavedCents": 19361.833333333332,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1c3h",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8284,
+    "monthlyAvgSavedCents": 1380.6666666666667,
+    "transfersExecuted": 161,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1g4g",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 10500,
+    "monthlyAvgSavedCents": 1750,
+    "transfersExecuted": 35,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g4h",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 301308,
+    "monthlyAvgSavedCents": 50218,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g4o",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 183468,
+    "monthlyAvgSavedCents": 30578,
+    "transfersExecuted": 320,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1g4v",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8382,
+    "monthlyAvgSavedCents": 1397,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1g4w",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3900,
+    "monthlyAvgSavedCents": 650,
+    "transfersExecuted": 13,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g4x",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 136938,
+    "monthlyAvgSavedCents": 22823,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g4y",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 165343,
+    "monthlyAvgSavedCents": 27557.166666666668,
+    "transfersExecuted": 124,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1g4z",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 14653,
+    "monthlyAvgSavedCents": 2442.1666666666665,
+    "transfersExecuted": 293,
+    "transfersBlocked": 7
+  },
+  {
+    "customerId": "cust_1g50",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 2100,
+    "monthlyAvgSavedCents": 350,
+    "transfersExecuted": 7,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g51",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 686832,
+    "monthlyAvgSavedCents": 114472,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g52",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 84324,
+    "monthlyAvgSavedCents": 14054,
+    "transfersExecuted": 213,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1g53",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8928,
+    "monthlyAvgSavedCents": 1488,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1g54",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 19200,
+    "monthlyAvgSavedCents": 3200,
+    "transfersExecuted": 64,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g55",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 175854,
+    "monthlyAvgSavedCents": 29309,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g56",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 478899,
+    "monthlyAvgSavedCents": 79816.5,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5d",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8636,
+    "monthlyAvgSavedCents": 1439.3333333333333,
+    "transfersExecuted": 180,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5q",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9000,
+    "monthlyAvgSavedCents": 1500,
+    "transfersExecuted": 30,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5r",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 481206,
+    "monthlyAvgSavedCents": 80201,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5s",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 128136,
+    "monthlyAvgSavedCents": 21356,
+    "transfersExecuted": 216,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5t",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7687,
+    "monthlyAvgSavedCents": 1281.1666666666667,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1g5w",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 14400,
+    "monthlyAvgSavedCents": 2400,
+    "transfersExecuted": 48,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g5y",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 352722,
+    "monthlyAvgSavedCents": 58787,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1g6b",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 239802,
+    "monthlyAvgSavedCents": 39967,
+    "transfersExecuted": 355,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_1g6d",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11662,
+    "monthlyAvgSavedCents": 1943.6666666666667,
+    "transfersExecuted": 227,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1g6e",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8400,
+    "monthlyAvgSavedCents": 1400,
+    "transfersExecuted": 28,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k97",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 144024,
+    "monthlyAvgSavedCents": 24004,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k98",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 128922,
+    "monthlyAvgSavedCents": 21487,
+    "transfersExecuted": 162,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9l",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16183,
+    "monthlyAvgSavedCents": 2697.1666666666665,
+    "transfersExecuted": 336,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9m",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9n",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 864102,
+    "monthlyAvgSavedCents": 144017,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9o",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 88064,
+    "monthlyAvgSavedCents": 14677.333333333334,
+    "transfersExecuted": 232,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1k9p",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6203,
+    "monthlyAvgSavedCents": 1033.8333333333333,
+    "transfersExecuted": 128,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1k9q",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12000,
+    "monthlyAvgSavedCents": 2000,
+    "transfersExecuted": 40,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9r",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 136188,
+    "monthlyAvgSavedCents": 22698,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9s",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 474543,
+    "monthlyAvgSavedCents": 79090.5,
+    "transfersExecuted": 119,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1k9t",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12927,
+    "monthlyAvgSavedCents": 2154.5,
+    "transfersExecuted": 244,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1k9u",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6900,
+    "monthlyAvgSavedCents": 1150,
+    "transfersExecuted": 23,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9v",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 377490,
+    "monthlyAvgSavedCents": 62915,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1k9w",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 91433,
+    "monthlyAvgSavedCents": 15238.833333333334,
+    "transfersExecuted": 172,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1k9x",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8177,
+    "monthlyAvgSavedCents": 1362.8333333333333,
+    "transfersExecuted": 161,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1ka4",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 16200,
+    "monthlyAvgSavedCents": 2700,
+    "transfersExecuted": 54,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1kah",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 240030,
+    "monthlyAvgSavedCents": 40005,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1kai",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 212071,
+    "monthlyAvgSavedCents": 35345.166666666664,
+    "transfersExecuted": 364,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1kaj",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8209,
+    "monthlyAvgSavedCents": 1368.1666666666667,
+    "transfersExecuted": 166,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1kak",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3300,
+    "monthlyAvgSavedCents": 550,
+    "transfersExecuted": 11,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1kan",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 145506,
+    "monthlyAvgSavedCents": 24251,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1kao",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 151806,
+    "monthlyAvgSavedCents": 25301,
+    "transfersExecuted": 178,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1kb2",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12144,
+    "monthlyAvgSavedCents": 2024,
+    "transfersExecuted": 251,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1kb4",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1kb5",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 718026,
+    "monthlyAvgSavedCents": 119671,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1no4",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 102339,
+    "monthlyAvgSavedCents": 17056.5,
+    "transfersExecuted": 257,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1o65",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6104,
+    "monthlyAvgSavedCents": 1017.3333333333334,
+    "transfersExecuted": 119,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1o6j",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11400,
+    "monthlyAvgSavedCents": 1900,
+    "transfersExecuted": 38,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6k",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 199734,
+    "monthlyAvgSavedCents": 33289,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6l",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 453737,
+    "monthlyAvgSavedCents": 75622.83333333333,
+    "transfersExecuted": 141,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1o6m",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9445,
+    "monthlyAvgSavedCents": 1574.1666666666667,
+    "transfersExecuted": 193,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_1o6n",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 8700,
+    "monthlyAvgSavedCents": 1450,
+    "transfersExecuted": 29,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6o",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 527880,
+    "monthlyAvgSavedCents": 87980,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6p",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 106971,
+    "monthlyAvgSavedCents": 17828.5,
+    "transfersExecuted": 149,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1o6q",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 6819,
+    "monthlyAvgSavedCents": 1136.5,
+    "transfersExecuted": 136,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1o6r",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 17100,
+    "monthlyAvgSavedCents": 2850,
+    "transfersExecuted": 57,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6s",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 290232,
+    "monthlyAvgSavedCents": 48372,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6t",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 240351,
+    "monthlyAvgSavedCents": 40058.5,
+    "transfersExecuted": 332,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1o6u",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8403,
+    "monthlyAvgSavedCents": 1400.5,
+    "transfersExecuted": 166,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1o6v",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6900,
+    "monthlyAvgSavedCents": 1150,
+    "transfersExecuted": 23,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o6w",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 178986,
+    "monthlyAvgSavedCents": 29831,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o73",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 138003,
+    "monthlyAvgSavedCents": 23000.5,
+    "transfersExecuted": 144,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o7g",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16811,
+    "monthlyAvgSavedCents": 2801.8333333333335,
+    "transfersExecuted": 323,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1o7h",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 7200,
+    "monthlyAvgSavedCents": 1200,
+    "transfersExecuted": 24,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o7i",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 873024,
+    "monthlyAvgSavedCents": 145504,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o7l",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 80435,
+    "monthlyAvgSavedCents": 13405.833333333334,
+    "transfersExecuted": 214,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1o7m",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8484,
+    "monthlyAvgSavedCents": 1414,
+    "transfersExecuted": 159,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1o81",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 15300,
+    "monthlyAvgSavedCents": 2550,
+    "transfersExecuted": 51,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o83",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 292296,
+    "monthlyAvgSavedCents": 48716,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1o84",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 336699,
+    "monthlyAvgSavedCents": 56116.5,
+    "transfersExecuted": 141,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1rdv",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12218,
+    "monthlyAvgSavedCents": 2036.3333333333333,
+    "transfersExecuted": 221,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1s88",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 7800,
+    "monthlyAvgSavedCents": 1300,
+    "transfersExecuted": 26,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8m",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 537588,
+    "monthlyAvgSavedCents": 89598,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8n",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 169756,
+    "monthlyAvgSavedCents": 28292.666666666668,
+    "transfersExecuted": 228,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_1s8o",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7207,
+    "monthlyAvgSavedCents": 1201.1666666666667,
+    "transfersExecuted": 142,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1s8p",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12000,
+    "monthlyAvgSavedCents": 2000,
+    "transfersExecuted": 40,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8q",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 320076,
+    "monthlyAvgSavedCents": 53346,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8r",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 192665,
+    "monthlyAvgSavedCents": 32110.833333333332,
+    "transfersExecuted": 292,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1s8s",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9311,
+    "monthlyAvgSavedCents": 1551.8333333333333,
+    "transfersExecuted": 185,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1s8t",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3000,
+    "monthlyAvgSavedCents": 500,
+    "transfersExecuted": 10,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8u",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 155430,
+    "monthlyAvgSavedCents": 25905,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8v",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 128719,
+    "monthlyAvgSavedCents": 21453.166666666668,
+    "transfersExecuted": 125,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1s8w",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 12994,
+    "monthlyAvgSavedCents": 2165.6666666666665,
+    "transfersExecuted": 256,
+    "transfersBlocked": 8
+  },
+  {
+    "customerId": "cust_1s8x",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6600,
+    "monthlyAvgSavedCents": 1100,
+    "transfersExecuted": 22,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8y",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 763434,
+    "monthlyAvgSavedCents": 127239,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s8z",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 96409,
+    "monthlyAvgSavedCents": 16068.166666666666,
+    "transfersExecuted": 244,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1s96",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7474,
+    "monthlyAvgSavedCents": 1245.6666666666667,
+    "transfersExecuted": 161,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1s9j",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 15300,
+    "monthlyAvgSavedCents": 2550,
+    "transfersExecuted": 51,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s9k",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 161364,
+    "monthlyAvgSavedCents": 26894,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1s9l",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 356409,
+    "monthlyAvgSavedCents": 59401.5,
+    "transfersExecuted": 160,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1s9o",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9606,
+    "monthlyAvgSavedCents": 1601,
+    "transfersExecuted": 190,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1s9p",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5400,
+    "monthlyAvgSavedCents": 900,
+    "transfersExecuted": 18,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1sa4",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 423288,
+    "monthlyAvgSavedCents": 70548,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1sa6",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 61355,
+    "monthlyAvgSavedCents": 10225.833333333334,
+    "transfersExecuted": 152,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_1sa7",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5409,
+    "monthlyAvgSavedCents": 901.5,
+    "transfersExecuted": 113,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1vfy",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11400,
+    "monthlyAvgSavedCents": 1900,
+    "transfersExecuted": 38,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w8t",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 383688,
+    "monthlyAvgSavedCents": 63948,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w97",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 243237,
+    "monthlyAvgSavedCents": 40539.5,
+    "transfersExecuted": 364,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1w98",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8119,
+    "monthlyAvgSavedCents": 1353.1666666666667,
+    "transfersExecuted": 167,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1w99",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9a",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 145110,
+    "monthlyAvgSavedCents": 24185,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9b",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 135636,
+    "monthlyAvgSavedCents": 22606,
+    "transfersExecuted": 132,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9c",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 16389,
+    "monthlyAvgSavedCents": 2731.5,
+    "transfersExecuted": 315,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1w9d",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 4500,
+    "monthlyAvgSavedCents": 750,
+    "transfersExecuted": 15,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9e",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 688140,
+    "monthlyAvgSavedCents": 114690,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9f",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 75244,
+    "monthlyAvgSavedCents": 12540.666666666666,
+    "transfersExecuted": 193,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_1w9g",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7852,
+    "monthlyAvgSavedCents": 1308.6666666666667,
+    "transfersExecuted": 154,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_1w9h",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13500,
+    "monthlyAvgSavedCents": 2250,
+    "transfersExecuted": 45,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9i",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 212766,
+    "monthlyAvgSavedCents": 35461,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1w9j",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 378645,
+    "monthlyAvgSavedCents": 63107.5,
+    "transfersExecuted": 153,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1w9k",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11952,
+    "monthlyAvgSavedCents": 1992,
+    "transfersExecuted": 225,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1w9r",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5100,
+    "monthlyAvgSavedCents": 850,
+    "transfersExecuted": 17,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1wa4",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 482010,
+    "monthlyAvgSavedCents": 80335,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1wa5",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 132316,
+    "monthlyAvgSavedCents": 22052.666666666668,
+    "transfersExecuted": 201,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_1wa6",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7406,
+    "monthlyAvgSavedCents": 1234.3333333333333,
+    "transfersExecuted": 144,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1wa9",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 13200,
+    "monthlyAvgSavedCents": 2200,
+    "transfersExecuted": 44,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1waa",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 374640,
+    "monthlyAvgSavedCents": 62440,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1wap",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 244551,
+    "monthlyAvgSavedCents": 40758.5,
+    "transfersExecuted": 311,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1war",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11489,
+    "monthlyAvgSavedCents": 1914.8333333333333,
+    "transfersExecuted": 221,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_1was",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3900,
+    "monthlyAvgSavedCents": 650,
+    "transfersExecuted": 13,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_1zgd",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 141666,
+    "monthlyAvgSavedCents": 23611,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20ce",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 195000,
+    "monthlyAvgSavedCents": 32500,
+    "transfersExecuted": 130,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_20cs",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 11382,
+    "monthlyAvgSavedCents": 1897,
+    "transfersExecuted": 244,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_20ct",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3300,
+    "monthlyAvgSavedCents": 550,
+    "transfersExecuted": 11,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20cu",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 660774,
+    "monthlyAvgSavedCents": 110129,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20cv",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 85541,
+    "monthlyAvgSavedCents": 14256.833333333334,
+    "transfersExecuted": 198,
+    "transfersBlocked": 6
+  },
+  {
+    "customerId": "cust_20cw",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9348,
+    "monthlyAvgSavedCents": 1558,
+    "transfersExecuted": 191,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_20cx",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 19800,
+    "monthlyAvgSavedCents": 3300,
+    "transfersExecuted": 66,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20cy",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 276312,
+    "monthlyAvgSavedCents": 46052,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20cz",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 377683,
+    "monthlyAvgSavedCents": 62947.166666666664,
+    "transfersExecuted": 126,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20d0",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8764,
+    "monthlyAvgSavedCents": 1460.6666666666667,
+    "transfersExecuted": 167,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_20d1",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 7200,
+    "monthlyAvgSavedCents": 1200,
+    "transfersExecuted": 24,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20d2",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 448722,
+    "monthlyAvgSavedCents": 74787,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20d3",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 136705,
+    "monthlyAvgSavedCents": 22784.166666666668,
+    "transfersExecuted": 231,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_20d4",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8525,
+    "monthlyAvgSavedCents": 1420.8333333333333,
+    "transfersExecuted": 173,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_20d5",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 12900,
+    "monthlyAvgSavedCents": 2150,
+    "transfersExecuted": 43,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20dc",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 382056,
+    "monthlyAvgSavedCents": 63676,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20dp",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 210166,
+    "monthlyAvgSavedCents": 35027.666666666664,
+    "transfersExecuted": 350,
+    "transfersBlocked": 4
+  },
+  {
+    "customerId": "cust_20dq",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 10600,
+    "monthlyAvgSavedCents": 1766.6666666666667,
+    "transfersExecuted": 207,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_20dr",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6600,
+    "monthlyAvgSavedCents": 1100,
+    "transfersExecuted": 22,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20du",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 153150,
+    "monthlyAvgSavedCents": 25525,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20dv",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 143245,
+    "monthlyAvgSavedCents": 23874.166666666668,
+    "transfersExecuted": 169,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_20ea",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 15220,
+    "monthlyAvgSavedCents": 2536.6666666666665,
+    "transfersExecuted": 310,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_20ec",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 9300,
+    "monthlyAvgSavedCents": 1550,
+    "transfersExecuted": 31,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_20ed",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 766764,
+    "monthlyAvgSavedCents": 127794,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_23is",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 89184,
+    "monthlyAvgSavedCents": 14864,
+    "transfersExecuted": 232,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_24fz",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7807,
+    "monthlyAvgSavedCents": 1301.1666666666667,
+    "transfersExecuted": 160,
+    "transfersBlocked": 2
+  },
+  {
+    "customerId": "cust_24gd",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 15300,
+    "monthlyAvgSavedCents": 2550,
+    "transfersExecuted": 51,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24ge",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 195894,
+    "monthlyAvgSavedCents": 32649,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gf",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 328712,
+    "monthlyAvgSavedCents": 54785.333333333336,
+    "transfersExecuted": 137,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_24gg",
+    "personaKind": "tight_budget",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 9532,
+    "monthlyAvgSavedCents": 1588.6666666666667,
+    "transfersExecuted": 195,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_24gh",
+    "personaKind": "steady_saver",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 5700,
+    "monthlyAvgSavedCents": 950,
+    "transfersExecuted": 19,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gi",
+    "personaKind": "big_spender",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 482130,
+    "monthlyAvgSavedCents": 80355,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gj",
+    "personaKind": "gig_variable",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 130073,
+    "monthlyAvgSavedCents": 21678.833333333332,
+    "transfersExecuted": 183,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_24gk",
+    "personaKind": "high_earner",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 5955,
+    "monthlyAvgSavedCents": 992.5,
+    "transfersExecuted": 125,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_24gl",
+    "personaKind": "tight_budget",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 11700,
+    "monthlyAvgSavedCents": 1950,
+    "transfersExecuted": 39,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gm",
+    "personaKind": "steady_saver",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 381210,
+    "monthlyAvgSavedCents": 63535,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gn",
+    "personaKind": "big_spender",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 221444,
+    "monthlyAvgSavedCents": 36907.333333333336,
+    "transfersExecuted": 273,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_24go",
+    "personaKind": "gig_variable",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 8286,
+    "monthlyAvgSavedCents": 1381,
+    "transfersExecuted": 171,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_24gp",
+    "personaKind": "high_earner",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 3600,
+    "monthlyAvgSavedCents": 600,
+    "transfersExecuted": 12,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gq",
+    "personaKind": "tight_budget",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 177090,
+    "monthlyAvgSavedCents": 29515,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24gx",
+    "personaKind": "steady_saver",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 177161,
+    "monthlyAvgSavedCents": 29526.833333333332,
+    "transfersExecuted": 193,
+    "transfersBlocked": 5
+  },
+  {
+    "customerId": "cust_24ha",
+    "personaKind": "big_spender",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 17845,
+    "monthlyAvgSavedCents": 2974.1666666666665,
+    "transfersExecuted": 359,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_24hb",
+    "personaKind": "gig_variable",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 6600,
+    "monthlyAvgSavedCents": 1100,
+    "transfersExecuted": 22,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24hc",
+    "personaKind": "high_earner",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 952314,
+    "monthlyAvgSavedCents": 158719,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24hf",
+    "personaKind": "tight_budget",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 93419,
+    "monthlyAvgSavedCents": 15569.833333333334,
+    "transfersExecuted": 179,
+    "transfersBlocked": 1
+  },
+  {
+    "customerId": "cust_24hg",
+    "personaKind": "steady_saver",
+    "ruleMixName": "flat_roundup",
+    "totalSavedCents": 7337,
+    "monthlyAvgSavedCents": 1222.8333333333333,
+    "transfersExecuted": 141,
+    "transfersBlocked": 3
+  },
+  {
+    "customerId": "cust_24hv",
+    "personaKind": "big_spender",
+    "ruleMixName": "coffee_fixed",
+    "totalSavedCents": 14100,
+    "monthlyAvgSavedCents": 2350,
+    "transfersExecuted": 47,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24hx",
+    "personaKind": "gig_variable",
+    "ruleMixName": "percent_deposit_10",
+    "totalSavedCents": 117594,
+    "monthlyAvgSavedCents": 19599,
+    "transfersExecuted": 6,
+    "transfersBlocked": 0
+  },
+  {
+    "customerId": "cust_24hy",
+    "personaKind": "high_earner",
+    "ruleMixName": "combo_roundup_plus_deposit",
+    "totalSavedCents": 328499,
+    "monthlyAvgSavedCents": 54749.833333333336,
+    "transfersExecuted": 143,
+    "transfersBlocked": 1
+  }
+]

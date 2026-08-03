@@ -1,4 +1,4 @@
-import type { Action } from "../dsl/schema.js";
+import type { Action } from "../dsl/schema";
 
 /**
  * Safety-rail NUMBERS are always assigned by this deterministic code, never by the

@@ -1,9 +1,10 @@
 import type {
   NessieAccount,
   NessieCustomer,
+  NessieDeposit,
   NessiePurchase,
   NessieTransfer,
-} from "./types.js";
+} from "./types";
 
 /**
  * In-memory bank state for the self-hosted Nessie-compatible mock.
@@ -14,6 +15,7 @@ export class NessieStore {
   customers = new Map<string, NessieCustomer>();
   accounts = new Map<string, NessieAccount>();
   purchases = new Map<string, NessiePurchase>();
+  deposits = new Map<string, NessieDeposit>();
   transfers = new Map<string, NessieTransfer>();
   private idempotencyIndex = new Map<string, string>(); // idempotency_key -> transfer _id
   private seq = 0;
@@ -50,6 +52,20 @@ export class NessieStore {
 
   getAccount(id: string): NessieAccount | undefined {
     return this.accounts.get(id);
+  }
+
+  createDeposit(input: Omit<NessieDeposit, "_id" | "status" | "type">): NessieDeposit {
+    const deposit: NessieDeposit = { _id: this.nextId("dep"), type: "deposit", status: "completed", ...input };
+    this.deposits.set(deposit._id, deposit);
+    const account = this.accounts.get(deposit.payee_id);
+    if (account) account.balance += deposit.amount;
+    return deposit;
+  }
+
+  listDepositsForAccount(accountId: string): NessieDeposit[] {
+    return [...this.deposits.values()]
+      .filter((d) => d.payee_id === accountId)
+      .sort((a, b) => a.transaction_date.localeCompare(b.transaction_date));
   }
 
   listPurchasesForAccount(accountId: string): NessiePurchase[] {
@@ -107,6 +123,7 @@ export class NessieStore {
     this.customers.clear();
     this.accounts.clear();
     this.purchases.clear();
+    this.deposits.clear();
     this.transfers.clear();
     this.idempotencyIndex.clear();
     this.seq = 0;

@@ -1,5 +1,5 @@
 import express, { type Express, type Request, type Response, type NextFunction } from "express";
-import { nessieStore, NessieMockError, NessieStore } from "./store.js";
+import { nessieStore, NessieMockError, NessieStore } from "./store";
 
 /**
  * Self-hosted stand-in for api.nessieisreal.com. Spec explicitly allows this when the
@@ -65,6 +65,20 @@ export function createNessieMockServer(store: NessieStore = nessieStore): Expres
 
   app.get("/accounts/:accountId/purchases", (req, res) => {
     res.json(store.listPurchasesForAccount(req.params.accountId));
+  });
+
+  // Mirrors the real Nessie API's /deposits resource (external money arriving, e.g.
+  // a paycheck) and, like /purchases/bulk, adds a bulk variant for fast seeding.
+  app.post("/accounts/:accountId/deposits/bulk", (req, res) => {
+    const items = req.body.deposits as Array<Record<string, unknown>>;
+    const created = items.map((item) =>
+      store.createDeposit({ ...item, payee_id: req.params.accountId } as never),
+    );
+    res.status(201).json(created);
+  });
+
+  app.get("/accounts/:accountId/deposits", (req, res) => {
+    res.json(store.listDepositsForAccount(req.params.accountId));
   });
 
   app.post("/accounts/:accountId/transfers", (req, res) => {

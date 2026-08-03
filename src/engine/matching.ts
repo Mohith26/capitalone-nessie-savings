@@ -1,5 +1,5 @@
-import type { Condition, RuleDsl } from "../dsl/schema.js";
-import type { NessiePurchase } from "../nessie-mock/types.js";
+import type { Condition, RuleDsl } from "../dsl/schema";
+import type { NessiePurchase } from "../nessie-mock/types";
 
 export interface PurchaseEvent {
   transactionId: string;

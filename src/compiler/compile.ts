@@ -1,8 +1,8 @@
-import { validateRuleDsl, type RuleDsl } from "../dsl/schema.js";
-import { defaultDailyCapCentsForAction, DEFAULT_BALANCE_FLOOR_CENTS } from "./defaults.js";
-import { projectMonthlyImpactCents, type ImpactHistoryContext } from "./impact.js";
-import { proposeRuleFromText, type OllamaOptions } from "./ollama.js";
-import { heuristicSafetyGuard } from "./safety-guard.js";
+import { validateRuleDsl, type RuleDsl } from "../dsl/schema";
+import { defaultDailyCapCentsForAction, DEFAULT_BALANCE_FLOOR_CENTS } from "./defaults";
+import { projectMonthlyImpactCents, type ImpactHistoryContext } from "./impact";
+import { proposeRuleFromText, type OllamaOptions } from "./ollama";
+import { heuristicSafetyGuard } from "./safety-guard";
 
 export type CompileOutcome =
   | {

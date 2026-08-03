@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { validateRuleDsl } from "../src/dsl/schema.js";
+import { validateRuleDsl } from "../src/dsl/schema";
 
 const VALID_ROUNDUP = {
   trigger: { type: "purchase" },

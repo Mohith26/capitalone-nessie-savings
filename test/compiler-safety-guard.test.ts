@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { heuristicSafetyGuard } from "../src/compiler/safety-guard.js";
+import { heuristicSafetyGuard } from "../src/compiler/safety-guard";
 
 describe("heuristicSafetyGuard", () => {
   it("blocks 'save my whole paycheck'", () => {

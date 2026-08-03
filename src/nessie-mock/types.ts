@@ -38,6 +38,16 @@ export interface NessiePurchase {
   payer_id: string; // account id
 }
 
+export interface NessieDeposit {
+  _id: string;
+  type: "deposit";
+  transaction_date: string; // ISO date
+  status: "completed";
+  amount: number; // cents
+  payee_id: string; // account id
+  description: string;
+}
+
 export interface NessieTransfer {
   _id: string;
   type: "transfer";

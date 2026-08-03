@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { defaultDailyCapCentsForAction, DEFAULT_BALANCE_FLOOR_CENTS } from "../src/compiler/defaults.js";
-import { projectMonthlyImpactCents } from "../src/compiler/impact.js";
-import type { RuleDsl } from "../src/dsl/schema.js";
+import { defaultDailyCapCentsForAction, DEFAULT_BALANCE_FLOOR_CENTS } from "../src/compiler/defaults";
+import { projectMonthlyImpactCents } from "../src/compiler/impact";
+import type { RuleDsl } from "../src/dsl/schema";
 
 describe("defaultDailyCapCentsForAction (safety numbers are code-owned, not LLM-owned)", () => {
   it("caps round_up at $30/day regardless of what the model proposed", () => {

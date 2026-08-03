@@ -1,0 +1,203 @@
+{
+  "ranAt": "2026-08-03T15:45:15.124Z",
+  "overall": {
+    "customerCount": 500,
+    "medianMonthlySavedCents": 6937.916666666667,
+    "p25MonthlySavedCents": 1458,
+    "p75MonthlySavedCents": 35993,
+    "totalTransfersExecuted": 54744,
+    "totalTransfersBlocked": 523
+  },
+  "byRuleMix": [
+    {
+      "ruleMixName": "flat_roundup",
+      "customerCount": 125,
+      "medianMonthlySavedCents": 1538.3333333333333,
+      "p25MonthlySavedCents": 1252,
+      "p75MonthlySavedCents": 1992
+    },
+    {
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 125,
+      "medianMonthlySavedCents": 1400,
+      "p25MonthlySavedCents": 850,
+      "p75MonthlySavedCents": 2000
+    },
+    {
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 125,
+      "medianMonthlySavedCents": 56488,
+      "p25MonthlySavedCents": 31993,
+      "p75MonthlySavedCents": 82425
+    },
+    {
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 125,
+      "medianMonthlySavedCents": 28394.166666666668,
+      "p25MonthlySavedCents": 17828.5,
+      "p75MonthlySavedCents": 40539.5
+    }
+  ],
+  "byPersonaAndMix": [
+    {
+      "personaKind": "tight_budget",
+      "ruleMixName": "flat_roundup",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 1802.1666666666667,
+      "p25MonthlySavedCents": 1574.1666666666667,
+      "p75MonthlySavedCents": 2036.3333333333333
+    },
+    {
+      "personaKind": "steady_saver",
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 1300,
+      "p25MonthlySavedCents": 1050,
+      "p75MonthlySavedCents": 1450
+    },
+    {
+      "personaKind": "big_spender",
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 79777,
+      "p25MonthlySavedCents": 69662,
+      "p75MonthlySavedCents": 82425
+    },
+    {
+      "personaKind": "gig_variable",
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 22010.833333333332,
+      "p25MonthlySavedCents": 17828.5,
+      "p75MonthlySavedCents": 25286.833333333332
+    },
+    {
+      "personaKind": "high_earner",
+      "ruleMixName": "flat_roundup",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 1228.5,
+      "p25MonthlySavedCents": 1005.6666666666666,
+      "p75MonthlySavedCents": 1307.5
+    },
+    {
+      "personaKind": "tight_budget",
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 2050,
+      "p25MonthlySavedCents": 1800,
+      "p75MonthlySavedCents": 2250
+    },
+    {
+      "personaKind": "steady_saver",
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 56488,
+      "p25MonthlySavedCents": 50102,
+      "p75MonthlySavedCents": 60461
+    },
+    {
+      "personaKind": "big_spender",
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 36907.333333333336,
+      "p25MonthlySavedCents": 33327.666666666664,
+      "p75MonthlySavedCents": 40539.5
+    },
+    {
+      "personaKind": "gig_variable",
+      "ruleMixName": "flat_roundup",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 1474.1666666666667,
+      "p25MonthlySavedCents": 1353.1666666666667,
+      "p75MonthlySavedCents": 1824.5
+    },
+    {
+      "personaKind": "high_earner",
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 650,
+      "p25MonthlySavedCents": 550,
+      "p75MonthlySavedCents": 900
+    },
+    {
+      "personaKind": "tight_budget",
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 25842,
+      "p25MonthlySavedCents": 23711,
+      "p75MonthlySavedCents": 28127
+    },
+    {
+      "personaKind": "steady_saver",
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 28394.166666666668,
+      "p25MonthlySavedCents": 23365.166666666668,
+      "p75MonthlySavedCents": 30096.166666666668
+    },
+    {
+      "personaKind": "big_spender",
+      "ruleMixName": "flat_roundup",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 2449.5,
+      "p25MonthlySavedCents": 2405.6666666666665,
+      "p75MonthlySavedCents": 2723.3333333333335
+    },
+    {
+      "personaKind": "gig_variable",
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 850,
+      "p25MonthlySavedCents": 700,
+      "p75MonthlySavedCents": 1100
+    },
+    {
+      "personaKind": "high_earner",
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 124857,
+      "p25MonthlySavedCents": 116365,
+      "p75MonthlySavedCents": 142253
+    },
+    {
+      "personaKind": "tight_budget",
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 14256.833333333334,
+      "p25MonthlySavedCents": 13892.333333333334,
+      "p75MonthlySavedCents": 15569.833333333334
+    },
+    {
+      "personaKind": "steady_saver",
+      "ruleMixName": "flat_roundup",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 1301.1666666666667,
+      "p25MonthlySavedCents": 1191.6666666666667,
+      "p75MonthlySavedCents": 1414
+    },
+    {
+      "personaKind": "big_spender",
+      "ruleMixName": "coffee_fixed",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 2300,
+      "p25MonthlySavedCents": 2000,
+      "p75MonthlySavedCents": 2650
+    },
+    {
+      "personaKind": "gig_variable",
+      "ruleMixName": "percent_deposit_10",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 35971,
+      "p25MonthlySavedCents": 31993,
+      "p75MonthlySavedCents": 41111
+    },
+    {
+      "personaKind": "high_earner",
+      "ruleMixName": "combo_roundup_plus_deposit",
+      "customerCount": 25,
+      "medianMonthlySavedCents": 58426.833333333336,
+      "p25MonthlySavedCents": 52083.666666666664,
+      "p75MonthlySavedCents": 71622.66666666667
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 import { randomUUID } from "node:crypto";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
-import { loadEnv } from "../src/env.js";
-import { prisma } from "../src/db/prisma.js";
-import { NessieClient } from "../src/nessie-client/client.js";
-import { processPurchaseForRule, type ActiveRule } from "../src/engine/execute.js";
-import type { PurchaseEvent } from "../src/engine/matching.js";
-import type { RuleDsl } from "../src/dsl/schema.js";
+import { loadEnv } from "../src/env";
+import { prisma } from "../src/db/prisma";
+import { NessieClient } from "../src/nessie-client/client";
+import { processPurchaseForRule, type ActiveRule } from "../src/engine/execute";
+import type { PurchaseEvent } from "../src/engine/matching";
+import type { RuleDsl } from "../src/dsl/schema";
 
 loadEnv();
 

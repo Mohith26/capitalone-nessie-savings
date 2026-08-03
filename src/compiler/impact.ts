@@ -1,5 +1,5 @@
-import type { RuleDsl } from "../dsl/schema.js";
-import { computeRawTransferAmount, ruleMatchesPurchase, type PurchaseEvent } from "../engine/matching.js";
+import type { RuleDsl } from "../dsl/schema";
+import { computeRawTransferAmount, ruleMatchesPurchase, type PurchaseEvent } from "../engine/matching";
 
 export interface ImpactHistoryContext {
   /** Full purchase history available for projection (any window length). */
