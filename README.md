@@ -1,174 +1,134 @@
-# RoundUps — Programmable Micro-Savings on Capital One's Nessie API
+# RoundUps
 
-A micro-savings platform built on **Capital One's Nessie** mock-banking API (the house API at
-Capital One's hackathons and DevExchange). Customers describe savings rules in plain English —
-*"save $5 every time I order coffee"* — and a local LLM compiles them into a strict, **zod-validated
-rules DSL** with hard safety rails. Matching purchases fire **idempotent** transfers into savings,
-recorded in an **append-only ledger** where every transfer is traceable to the rule and the exact
-transaction that triggered it. A 500-customer simulation projects savings outcomes across income /
-spend personas.
+A micro-savings service built on the Capital One Nessie mock-banking API. A customer
+types a savings rule in plain English ("save $5 every time I order coffee"), a local
+LLM turns it into a small zod-validated rules DSL, and an execution engine watches
+purchases, fires transfers into savings, and writes every one to an append-only ledger
+where each row points back at the rule and the exact transaction that triggered it.
 
-> **Why this shape:** it targets Capital One SWE recruiting signals — their own developer tooling
-> (Nessie), fintech correctness (money as integers, idempotent transfers, audit trails), and a
-> *risk-conscious* use of an LLM (the model proposes structure; deterministic code owns every
-> money-critical number and every safety decision).
+The part I cared most about was making the money path boring. The model proposes the
+shape of a rule; it never decides a safety number, and nothing it says gets activated
+without a preview and an explicit confirm.
 
-Built to spec #33. See **[RESULTS.md](./RESULTS.md)** for every measured number with its exact
-reproduce command, and **[BULLETS.md](./BULLETS.md)** for the resume bullets those numbers back.
+## How it works
 
----
-
-## Headline results (measured 2026-08-03 — see RESULTS.md)
-
-| Metric | Value |
-|---|---|
-| Plain-English → DSL exact-match (30-phrasing eval) | **90.0% (27/30)** |
-| Unsafe-request rejection accuracy | **87.5% (7/8)** |
-| Real ledger transfers audited | **9,951** |
-| Transfers traceable to rule + triggering txn | **100.0%** |
-| Duplicate transfers (after full replay) | **0** |
-| Synthetic customers simulated (6 months) | **500** |
-| Median saver | **$69.38 / month** |
-| Test suite | **42/42 passing** |
-
-## Architecture
+The pipeline, top to bottom:
 
 ```
-Nessie mock (src/nessie-mock)  ── customers / accounts / purchases / deposits / transfers
-        ▲  (HTTP, Nessie-compatible routes)
-        │
-NessieClient (src/nessie-client) ── retries 429/5xx + network errors w/ capped backoff
-        │
-Rules DSL (src/dsl/schema.ts, zod) ── triggers × conditions × actions + safety rails
-        │
-Execution engine (src/engine) ── match → compute → enforce safety → idempotent transfer → ledger
-        │                          idempotency key = sha256(ruleId, triggeringTransactionId)
-        ├── Postgres ledger (prisma) ── append-only Transfer rows, Rule + Goal tables
-        │
-NL compiler (src/compiler) ── heuristic guard → Ollama JSON → zod validate → history impact → PREVIEW
-        │                      (a rule is NEVER activated without an explicit confirm)
-        │
-Simulation (src/sim) ── replay 500 customers × rule mixes → savings distributions
-        │
-Dashboard (app/, Next.js 14 + Recharts) ── accounts, plain-English rule add, goal thermometers,
-                                            transfer history w/ rule attribution, sim charts
+src/nessie-mock/     Nessie-compatible mock server
+src/nessie-client/   HTTP client with capped-backoff retries on 429/5xx
+src/dsl/             the rules DSL (zod): trigger, AND-ed conditions, action, safety block
+src/engine/          match, compute amount, safety rails, idempotent transfer, ledger write
+src/compiler/        heuristic guard, Ollama call, default safety numbers, impact preview
+src/personas/        faker personas and 6-month purchase-history generator
+src/sim/             rule mixes and the in-memory 500-customer simulation
+app/                 Next.js 14 dashboard (accounts, rule add, goals, transfer history, sim charts)
+prisma/              Rule, Transfer (append-only), Goal
 ```
 
-### Design decisions that matter
-
-- **Money is always integer cents.** No floats anywhere in the money path.
-- **The LLM owns the "what", deterministic code owns the "how safe".** The model proposes
-  trigger/conditions/action; `src/compiler/defaults.ts` assigns the balance floor and daily cap,
-  and `src/engine/safety.ts` re-checks *every* transfer at execution time (balances change between
-  rule creation and firing). Three independent safety layers: a pre-model heuristic guard, the
-  model's own refusal, and the zod validator + runtime rails.
-- **Idempotency is a property of the engine, not the caller.** The live "new purchase" path, the
-  batch runner, and any retry/replay all flow through one function keyed by
-  `hash(ruleId, transactionId)`, with defense in depth (app-level check → Nessie idempotency index →
-  DB unique constraint on race). Replaying an entire 9,951-transfer batch adds zero rows.
-- **Preview before activation, always.** `compilePlainEnglishRule` returns a preview (with a
-  history-projected monthly impact) or a rejection-with-reason; it never activates anything.
-
-## Tech stack
-
-TypeScript · Next.js 14 (App Router) · zod · Prisma + PostgreSQL · Ollama (local LLM) · Recharts ·
-Express (mock server) · Vitest · faker.
-
----
-
-## Reproduce the results
-
-### Prerequisites (all free / local)
-
-- **Node** ≥ 20 (built on v22).
-- **PostgreSQL** reachable at the `DATABASE_URL` in `.env` (default `localhost:5544`, db `roundups`).
-- **[Ollama](https://ollama.com)** running locally with the model pulled: `ollama pull llama3.1:8b`.
-
-```bash
-cp .env.example .env          # local URLs only; no secrets
-npm install
-npm run db:push               # create the Prisma schema in Postgres
-npm run mock:start            # start the Nessie-compatible mock on :4173 (leave running)
-```
-
-Then, in another shell:
-
-```bash
-npm run seed          # Phase 1: 500 customers, 6-month history          → data/directory.json
-npm test              # Phases 1–2: 42 tests incl. real-DB idempotency + adversarial DSL
-npm run ledger:batch  # Phase 2: drive 50 customers' real purchases through the engine + REPLAY
-npm run audit         # Phase 2: audit the real ledger (100% attributed, 0 duplicates)
-npm run eval          # Phase 3: 30-phrasing compiler eval + 8 unsafe requests → eval/results.json
-npm run sim           # Phase 4: simulate 500 customers × rule mixes       → data/simulation-*.json
-npm run demo          # Phase 4: end-to-end (english rule → preview → activate → 1 attributed transfer)
-npm run dev           # optional: the dashboard at http://localhost:3000
-```
-
-`npm run eval`, `npm run demo`, `npm run ledger:batch`, and the idempotency tests hit the **real**
-mock + Postgres (+ Ollama for eval/demo) — no mocking of the systems under test.
-
-## The rules DSL (shape)
+A rule looks like this:
 
 ```jsonc
 {
-  "trigger":   { "type": "purchase" | "deposit" | "schedule", "weekday?": 0-6 },
-  "conditions": [ /* AND-ed */
-    { "type": "merchant_category", "categories": ["coffee", ...] },
-    { "type": "amount_range", "minCents?": 0, "maxCents?": 5000 },
+  "trigger":   { "type": "purchase" | "deposit" | "schedule" },
+  "conditions": [
+    { "type": "merchant_category", "categories": ["coffee"] },
+    { "type": "amount_range", "maxCents": 5000 },
     { "type": "balance_floor", "minCents": 25000 }
   ],
-  "action": { "type": "round_up",  "toCents": 100|500|1000 }   // nearest $1/$5/$10
-          |  { "type": "fixed_transfer", "amountCents": 500 }
-          |  { "type": "percent_of_deposit", "percent": 10 },  // deposit trigger only
-  "safety": { "balanceFloorCents": 2500, "dailyCapCents": 3000 } // ALWAYS present, ALWAYS enforced
+  "action": { "type": "round_up", "toCents": 100 },            // or fixed_transfer / percent_of_deposit
+  "safety": { "balanceFloorCents": 2500, "dailyCapCents": 3000 }  // always present, always enforced
 }
 ```
 
-Merchant categories: `coffee, groceries, restaurants, rideshare, entertainment, utilities, rent,
-shopping, subscriptions, gas`.
+Design decisions that ended up mattering:
 
-## Dashboard
+- Money is integer cents everywhere. No floats touch the money path.
+- The model owns "what", deterministic code owns "how safe". `src/compiler/defaults.ts`
+  assigns the balance floor and daily cap, and `src/engine/safety.ts` re-checks every
+  transfer at execution time, because balances change between when a rule is written and
+  when it fires. Three independent layers: a pre-model heuristic guard, the model's own
+  refusal path, and the zod validator plus runtime rails.
+- Idempotency belongs to the engine, not the caller. The live purchase path, the batch
+  runner, and any replay all go through `processPurchaseForRule`, keyed by
+  `sha256(ruleId, triggeringTransactionId)`: app-level lookup, then the mock's own
+  idempotency index, then a unique constraint on the ledger table.
+- Preview before activation. `compilePlainEnglishRule` returns either a preview (with a
+  projected monthly impact from the customer's real history) or a rejection with a
+  reason. It never activates anything itself.
 
-- `/accounts` — the 500 seeded customers.
-- `/accounts/[id]` — balances, goal thermometers, **add a rule in plain English** (preview →
-  activate), active rules, and a transfer-history table that shows each transfer's rule **and its
-  triggering transaction id** (the audit trail, visible in the UI).
-- `/simulation` — Recharts distributions of median/quartile savings by rule mix and by persona.
+## Results
 
----
+All of these come from runs on 2026-08-03; the exact commands and per-run detail are in
+[RESULTS.md](./RESULTS.md).
 
-## Limitations & honest caveats
+| what | value |
+|---|---|
+| plain-English to DSL exact match (30 phrasings) | 27/30 (90.0%) |
+| unsafe requests correctly rejected | 7/8 (87.5%) |
+| real ledger transfers (50 customers through Postgres + mock) | 9,951 |
+| transfers traceable to rule and triggering transaction | 100.0% |
+| new rows after replaying the full batch | 0 |
+| simulated customers, 6 months | 500 |
+| overall median saved | $69.38/month |
+| tests | 42/42 |
 
-- **Nessie is mocked locally.** `api.nessieisreal.com` requires a hosted student account; per the
-  spec, a self-hosted **Nessie-compatible** mock (`src/nessie-mock`) is used instead, with routes
-  mirroring the real API so `NessieClient` is swappable by changing `NESSIE_BASE_URL`. No hosted
-  Capital One account was created.
-- **The NL compiler is a local 8B model.** Ollama `llama3.1:8b` stands in for the spec's
-  "Claude/GPT function-calling" so the project is free and offline. The **90.0% / 87.5%** compiler
-  scores are therefore a *floor* — a hosted frontier model would very likely score higher. Three
-  specific miscompiles and one missed unexpressible request are enumerated in RESULTS.md.
-- **The 500-customer savings simulation is in-memory** (it reuses the engine's exact matching +
-  safety functions but doesn't write 500×~175 ledger rows). The 100%-attribution / 0-duplicate
-  ledger guarantee is instead measured on a **real** 9,951-transfer Postgres + Nessie batch.
-- **Rule-mix outperformance percentages are structural** (a percent-of-paycheck rule moves far more
-  than round-ups by construction) — read them as "different savings magnitudes", not a tuned edge.
-- Out of scope (per spec): real bank connections, real money, credit features, mobile app.
+The three compiler misses are real model errors at temperature 0 (a `subscriptions`
+phrase categorized as `entertainment`, "5% of my paycheck" compiled as `percent: 50`,
+an extra `restaurants` category on an entertainment rule). The one unsafe request that
+slipped through was "buy me a coffee every morning", which is not a savings rule rather
+than a dangerous one; the seven genuinely dangerous ones (whole paycheck, entire
+balance, pay a third party) were all caught, mostly by the deterministic guard before
+the model saw them.
 
-## Layout
+Median saved by rule mix: flat round-up $15.38, $3 per coffee $14.00, 10% of each
+paycheck $564.88, round-up plus 5% of deposit $283.94. The paycheck numbers are large
+by construction; a deposit rule simply moves more money than round-ups.
 
+## Getting it running
+
+You need Node 20 or newer, PostgreSQL reachable at the `DATABASE_URL` in `.env`
+(default `localhost:5544`, database `roundups`), and [Ollama](https://ollama.com) with
+`ollama pull llama3.1:8b`.
+
+```bash
+cp .env.example .env
+npm install
+npm run db:push
+npm run mock:start        # Nessie-compatible mock on :4173, leave it running
 ```
-app/                 Next.js 14 dashboard (pages + API routes)
-components/           GoalThermometer, SimulationCharts (Recharts)
-src/nessie-mock/      Nessie-compatible mock server + in-memory store
-src/nessie-client/    retrying HTTP client
-src/dsl/              zod rules DSL + validator
-src/engine/           matching, safety rails, idempotency, execution
-src/compiler/         heuristic guard, Ollama call, defaults, impact projection, eval compare
-src/personas/         faker personas + purchase-history generator
-src/sim/              rule mixes + in-memory simulation
-scripts/              seed, simulate, eval-compiler, e2e-demo, ledger-batch, ledger-audit, start-mock
-test/                 vitest suite (42 tests)
-prisma/schema.prisma  Rule / Transfer (append-only ledger) / Goal
-eval/                 30 phrasings + 8 unsafe requests + last results.json
-data/                 seed directory + simulation outputs
+
+In another shell:
+
+```bash
+npm run seed              # 500 customers, 6 months of history -> data/directory.json
+npm test                  # 42 tests, including real-DB idempotency and adversarial DSL cases
+npm run ledger:batch      # 50 customers' purchases through the engine, then a full replay
+npm run audit             # attribution and duplicate check over the real ledger
+npm run eval              # 30 phrasings + 8 unsafe requests -> eval/results.json
+npm run sim               # 500-customer simulation -> data/simulation-*.json
+npm run demo              # english rule -> preview -> activate -> one attributed transfer
+npm run dev               # dashboard at http://localhost:3000
 ```
+
+`eval`, `demo`, `ledger:batch`, and the idempotency tests hit the real mock, real
+Postgres, and Ollama. Nothing under test is stubbed.
+
+## Testing
+
+Eight vitest files. `dsl-validator.test.ts` throws adversarial rules at the schema
+(negative amounts, fixed transfers above the cap, `percent_of_deposit` on a purchase
+trigger). `engine-idempotency.test.ts` runs against real Postgres and the mock:
+replaying the same purchase three times leaves one ledger row. `nessie-client.test.ts`
+checks that transient 503s are retried and 4xx errors are not.
+
+## Caveats
+
+- The hosted Nessie API needs a student account, so this runs against a self-hosted
+  mock with the same routes; swap via `NESSIE_BASE_URL`.
+- The compiler is `llama3.1:8b` running locally so the whole thing works offline with
+  no API key. A larger hosted model would almost certainly do better on the eval.
+- The 500-customer simulation is in-memory. It reuses the engine's matching and safety
+  functions but does not write its 54,744 transfers through Postgres. The ledger
+  integrity numbers come from the separate 9,951-transfer real batch.
+- No real bank connections, real money, credit features, or mobile app.

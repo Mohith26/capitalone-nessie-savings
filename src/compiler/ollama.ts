@@ -75,9 +75,9 @@ export interface OllamaOptions {
 export class CompilerModelError extends Error {}
 
 /**
- * Calls the local Ollama server (free/local -- no hosted LLM account, see
- * PLAN.md/README for why this substitutes for the spec's "Claude/GPT function
- * calling") and parses its JSON response into a Proposal. Retries once with a
+ * Calls the local Ollama server and parses its JSON response into a Proposal. The
+ * local model stands in for a hosted function-calling API so the compiler runs
+ * without any API key. Retries once with a
  * stricter reminder if the first response fails to parse -- small local models are
  * less reliable at strict JSON than a hosted frontier model, so one retry buys back
  * most of that gap without hiding failures.
